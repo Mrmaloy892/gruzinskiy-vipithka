@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <h1>Грузинська випічка</h1>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="/" class="logo">
+        <img src="logo.svg" alt="" srcset="">
+    </a>
+    <nav>
+        <ul>
+            <li class="nav-item"><a href="" class="nav-link">Що нового?</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Асортимент</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Локації</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html">
+        🛒 Кошик: <span class="cart-count">0</span>
+    </a>
+</header>
+<main>
+    <div class="cover-block">
+        <h1>Франшиза найбільшої мережі пекарень грузинської випічки в Україні</h1>
+        <button class="primary-btn btn">Стати партнером</button>
+        <div class="stat-block">
+            <h2>22</h2>
+            <p>Міста</p>
+
+        </div>
+        <div class="stat-block">
+            <h2>57</h2>
+            <p>Точок в Україні</p>
+
+        </div>
+        <div class="stat-block">
+            <h2>25</h2>
+            <p>франчайзі
+            </p>
+
+        </div>
+        <div class="stat-block">
+            <h2>10 000</h2>
+            <p>покупців щодня</p>
+
+        </div>
+    </div>
+    <div class="news-block">
+        <h2>Що нового?</h2>
+       <div class="Flex-wrapper">
+        <div class="news-item">
+            <img src="" alt="" srcset="">
+            <p class="news-title"></p>
+        </div>
+        <div class="news-item">
+            <img src="" alt="" srcset="">
+            <p class="news-title"></p>
+        </div>
+        <div class="news-item">
+            <img src="" alt="" srcset="">
+            <p class="news-title"></p>
+        </div>
+       </div>
+        <button class="primary-btn btn">Стати партнером</button>
+    </div>
+
+    <div class="advantages-block">
+        <h1>Чому варто стати партнером?</h1>
+        <div class="reasons-block">
+           <div class="reason-item">
+            <img src="" alt="">
+            <p>власний бізнес за <b>1,5 місяця</b></p>
+           </div> 
+           <div class="reason-item">
+            <img src="" alt="">
+            <p>впізнаваний бренд, якому <b>довіряють</b></p>
+           </div> 
+           <div class="reason-item">
+            <img src="" alt="">
+            <p><b>унікальна</b>бізнесова ніша</p>
+           </div> 
+           <div class="reason-item">
+            <img src="" alt="">
+            <p><b>окупність</b>від 8 місяців</p>
+           </div> 
+           <div class="reason-item">
+            <img src="" alt="">
+            <p>спеціалізоване<b>навчання персоналу</b></p>
+           </div> 
+           <div class="reason-item">
+            <img src="" alt="">
+            <p>постійна професійна<b>підтримка</b></p>
+           </div> 
+        </div>
+    </div>
+    <div class="joing">
+         <h1>Хочете дізнатися більше?</h1>
+         <button class="primary-btn btn">Отримати презинтацію</button>
+    </div>
+</main>
+
+<h2>Товари</h2>
+<div class="catalog">
+
+
+
+<div class="product">
+    <h3>Лаваш з сиром</h3>
+    <p>60 грн</p>
+    <img src="lavash-z-syrom--384x384-removebg-preview.png">
+    <button class="btn" onclick="addToCart(1,'лаваш з сиром',60,'')">
+          Додати в кошик
+    </button>
+</div>
+
+<div class="product">
+    <h3>Хачапурі з капустою та грибами</h3>
+    <p>80 грн</p>
+    <img src="завантаження.png">
+    <button class="bth"   onclick="addToCart(2,'Хачапурі з капустою та грибами',80,'')">
+        Додати в кошик
+    </button>
+</div>
+
+<div class="product">
+    <h3>Хачапурі з картоплею та грибами</h3>
+    <p>80 грн</p>
+    <img src="7-384x384-removebg-preview.png">
+    <button  class="btm"  onclick="addToCart(3,'Хачапурі з картоплею та грибами',80,'img/mouse.png')">
+        Додати в кошик
+    </button>
+</div>
+</div>
+<footer>
+   <div class="footer-block">
+    <a href="/" class="logo">
+        <img src="" alt="" class="logo-img">
+    </a>
+   </div>
+   <div class="footer-block"> 
+   <p>Навігація</p>
+   <ul class="footer-list"></ul>
+   </div>
+   <div class="footer-block">
+   <p>Контакти</p>
+   <ul>
+   <li>+38 (063) 889-61-45</li>
+   <li>gbread.franch@gmail.com</li>
+   </ul>
+   </div>
+   <div class="footer-block">
+    <div class="socials">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+   </div>
+</footer>
+<script src="cart.js"></script>
+</body>
+</html>
